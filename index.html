@@ -4,7 +4,104 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Penguin Shop</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font-bebas {
+        font-family: 'Bebas Neue', sans-serif;
+      }
+    </style>
   </head>
-  <body></body>
+  <body class="m-0 p-0 box-border">
+    <header class="bg-orange-100 p-2 md:pl-32 md:pr-32 pt-10">
+      <nav
+        class="flex flex-row md:justify-between justify-between md:items-center mb-12 md:mb-14"
+      >
+        <div class="flex flex-row gap-3 items-center">
+          <img src="icons/penguin.svg" alt="" class="h-9 md:h-12 w-9 md:w-14" />
+
+          <p class="md:text-[2.5rem] text-[17px] font-extrabold text-[#363958]">
+            <span class="text-[#A4BC46]">Penguin</span> Fasion
+          </p>
+        </div>
+        <div class="md:hidden m-0">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 30 30"
+            fill="none"
+          >
+            <path
+              d="M5 16.25C5.69036 16.25 6.25 15.6904 6.25 15C6.25 14.3096 5.69036 13.75 5 13.75C4.30964 13.75 3.75 14.3096 3.75 15C3.75 15.6904 4.30964 16.25 5 16.25Z"
+              fill="black"
+            />
+            <path
+              d="M25.075 13.75H9.925C9.27607 13.75 8.75 14.2761 8.75 14.925V15.075C8.75 15.7239 9.27607 16.25 9.925 16.25H25.075C25.7239 16.25 26.25 15.7239 26.25 15.075V14.925C26.25 14.2761 25.7239 13.75 25.075 13.75Z"
+              fill="black"
+            />
+            <path
+              d="M25.075 20H4.925C4.27607 20 3.75 20.5261 3.75 21.175V21.325C3.75 21.9739 4.27607 22.5 4.925 22.5H25.075C25.7239 22.5 26.25 21.9739 26.25 21.325V21.175C26.25 20.5261 25.7239 20 25.075 20Z"
+              fill="black"
+            />
+            <path
+              d="M25.075 7.5H4.925C4.27607 7.5 3.75 8.02607 3.75 8.675V8.825C3.75 9.47393 4.27607 10 4.925 10H25.075C25.7239 10 26.25 9.47393 26.25 8.825V8.675C26.25 8.02607 25.7239 7.5 25.075 7.5Z"
+              fill="black"
+            />
+          </svg>
+        </div>
+        <div>
+          <ul
+            class="hidden md:flex lg:flex flex-row justify-between gap-14 font-sans text-[1rem]"
+          >
+            <li>Home</li>
+            <li>Product</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+      </nav>
+      <div class="flex flex-col md:flex-row pb-16 justify-between items-center">
+        <div class="flex flex-col items-start space-y-3">
+          <p class="uppercase text-[#363958] text-7xl font-normal font-bebas">
+            <span class="text-[#FABE4C]">Be the Penguins</span><br />of Winter
+          </p>
+          <p class="text-base font-normal">
+            Lorem Ipsum is simply dummy text of the printing <br />
+            and typesetting industry.
+          </p>
+          <button
+            class="flex flex-row justify-center gap-1 items-center border-solid bg-[#A4BC46] bg-gradient-to-b from-[#A4BC46] 0% to-[#85A019] 100% w-[170px] h-[60px] rounded-[10px] text-base text-white font-medium"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+              />
+            </svg>
+
+            Buy Now
+          </button>
+        </div>
+        <div>
+          <img src="images/model.png" alt="" class="w-96 h-96" />
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
