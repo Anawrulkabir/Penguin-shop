@@ -18,7 +18,7 @@
     </style>
   </head>
   <body class="m-0 p-0 box-border">
-    <header class="bg-orange-100 p-2 md:pl-32 md:pr-32 pt-10">
+    <header class="bg-orange-100 md:p-2 md:pl-32 md:pr-32 pt-10 pl-5 pr-5">
       <nav
         class="flex flex-row md:justify-between justify-between md:items-center mb-12 md:mb-14"
       >
@@ -29,32 +29,7 @@
             <span class="text-[#A4BC46]">Penguin</span> Fasion
           </p>
         </div>
-        <div class="md:hidden m-0">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="30"
-            height="30"
-            viewBox="0 0 30 30"
-            fill="none"
-          >
-            <path
-              d="M5 16.25C5.69036 16.25 6.25 15.6904 6.25 15C6.25 14.3096 5.69036 13.75 5 13.75C4.30964 13.75 3.75 14.3096 3.75 15C3.75 15.6904 4.30964 16.25 5 16.25Z"
-              fill="black"
-            />
-            <path
-              d="M25.075 13.75H9.925C9.27607 13.75 8.75 14.2761 8.75 14.925V15.075C8.75 15.7239 9.27607 16.25 9.925 16.25H25.075C25.7239 16.25 26.25 15.7239 26.25 15.075V14.925C26.25 14.2761 25.7239 13.75 25.075 13.75Z"
-              fill="black"
-            />
-            <path
-              d="M25.075 20H4.925C4.27607 20 3.75 20.5261 3.75 21.175V21.325C3.75 21.9739 4.27607 22.5 4.925 22.5H25.075C25.7239 22.5 26.25 21.9739 26.25 21.325V21.175C26.25 20.5261 25.7239 20 25.075 20Z"
-              fill="black"
-            />
-            <path
-              d="M25.075 7.5H4.925C4.27607 7.5 3.75 8.02607 3.75 8.675V8.825C3.75 9.47393 4.27607 10 4.925 10H25.075C25.7239 10 26.25 9.47393 26.25 8.825V8.675C26.25 8.02607 25.7239 7.5 25.075 7.5Z"
-              fill="black"
-            />
-          </svg>
-        </div>
+
         <div>
           <ul
             class="hidden md:flex lg:flex flex-row justify-between gap-14 font-sans text-[1rem]"
@@ -64,6 +39,9 @@
             <li>About Us</li>
             <li>Contact Us</li>
           </ul>
+        </div>
+        <div class="md:hidden flex">
+          <img src="icons/hamburger.svg" alt="" />
         </div>
       </nav>
       <div class="flex flex-col md:flex-row pb-16 justify-between items-center">
@@ -97,7 +75,11 @@
           </button>
         </div>
         <div>
-          <img src="images/model.png" alt="" class="w-96 h-96" />
+          <img
+            src="images/model.png"
+            alt=""
+            class="md:w-96 md:h-96 w-80 h-80 mt-12 md:mt-0 mr-10 md:mr-0"
+          />
         </div>
       </div>
     </header>
